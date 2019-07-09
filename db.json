@@ -24,11 +24,6 @@
   ],
   "techs": [
     {
-      "id": 1,
-      "firstName": "Sam",
-      "lastName": "Smith"
-    },
-    {
       "id": 2,
       "firstName": "Mario",
       "lastName": "Jimenez"
@@ -37,11 +32,6 @@
       "id": 3,
       "firstName": "Tomas",
       "lastName": "Marcone"
-    },
-    {
-      "firstName": "luisito",
-      "lastName": "rey",
-      "id": 4
     },
     {
       "firstName": "mario",
