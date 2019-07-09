@@ -1,42 +1,42 @@
 {
-    "logs": [
-        {
-            "id": 1,
-            "message": "Change the hard driver at working station 0023",
-            "attention": false,
-            "date": "03-02-2019",
-            "tech": "Sam Smith"
-        },
-        {
-            "id": 2,
-            "message": "Work station 0032 not posting",
-            "attention": true,
-            "date": "03-02-2019",
-            "tech": "Mario Jimenez"
-        },
-        {
-            "id": 3,
-            "message": "Change memory on working station 0003",
-            "attention": false,
-            "date": "03-02-2019",
-            "tech": "Tomas Marcone"
-        }
-    ],
-    "techs": [
-        {
-            "id": 1,
-            "firstName": "Sam",
-            "lastName": "Smith"
-        },
-        {
-            "id": 2,
-            "firstName": "Mario",
-            "lastName": "Jimenez"
-        },
-        {
-            "id": 3,
-            "firstName": "Tomas",
-            "lastName": "Marcone"
-        }
-    ]
+  "logs": [
+    {
+      "message": "computer backup",
+      "attention": true,
+      "tech": "Maxi Rodriguez",
+      "date": "2019-07-09T16:32:33.026Z",
+      "id": 1
+    },
+    {
+      "message": "ticket 21332 frontend",
+      "attention": false,
+      "tech": "Luca Tony",
+      "date": "2019-07-09T16:32:48.529Z",
+      "id": 2
+    },
+    {
+      "message": "ticket 243 backend",
+      "attention": false,
+      "tech": "Maxi Rodriguez",
+      "date": "2019-07-09T16:32:59.978Z",
+      "id": 3
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 2,
+      "firstName": "Mario",
+      "lastName": "Jimenez"
+    },
+    {
+      "id": 3,
+      "firstName": "Tomas",
+      "lastName": "Marcone"
+    }
+  ]
 }
