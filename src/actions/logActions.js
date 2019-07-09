@@ -6,7 +6,8 @@ import {
   DELETE_LOG,
   UPDATE_LOG,
   SET_CURRENT,
-  CLEAR_CURRENT
+  CLEAR_CURRENT,
+  SEARCH_LOGS
 } from './types';
 
 //get logs from the server
@@ -114,12 +115,12 @@ export const searchLogs = text => async dispatch => {
     const data = await res.json();
 
     dispatch({
-      type: GET_LOGS,
+      type: SEARCH_LOGS,
       payload: data
     });
   } catch (err) {
     dispatch({
-      type: SEARCH_ERROR,
+      type: LOGS_ERROR,
       payload: err.response.data
     });
   }
