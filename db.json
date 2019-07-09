@@ -1,25 +1,11 @@
 {
   "logs": [
     {
-      "message": "computer backup",
-      "attention": true,
-      "tech": "Maxi Rodriguez",
-      "date": "2019-07-09T16:32:33.026Z",
-      "id": 1
-    },
-    {
-      "message": "ticket 21332 frontend",
-      "attention": false,
-      "tech": "Luca Tony",
-      "date": "2019-07-09T16:32:48.529Z",
-      "id": 2
-    },
-    {
-      "message": "ticket 243 backend",
+      "id": 1,
+      "message": "aaa",
       "attention": false,
       "tech": "Maxi Rodriguez",
-      "date": "2019-07-09T16:32:59.978Z",
-      "id": 3
+      "date": "2019-07-09T17:33:04.563Z"
     }
   ],
   "techs": [
