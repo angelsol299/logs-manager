@@ -12,3 +12,4 @@ export const GET_TECHS = 'GET_TECHS';
 export const ADD_TECHS = 'ADD_TECHS';
 export const DELETE_TECHS = 'DELETE_TECHS';
 export const TECHS_ERROR = 'TECHS_ERROR';
+export const ADD_LOG = 'ADD_LOG';
